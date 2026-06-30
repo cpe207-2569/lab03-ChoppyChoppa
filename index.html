@@ -1,9 +1,109 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
     <title>My Portfolio</title>
   </head>
-  <body></body>
+  <body>
+    <!--nav links-->
+    <div class="">
+      <nav class="navbar bg-dark border-bottom border-body p-3 justify-content-center" data-bs-theme="dark">
+        <ul class="nav nav-underline">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html"
+            >Home</a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fav.html">Favourites</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gallery.html">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      </nav>
+    </div>
+
+    <!--Profile-->
+    <br>
+    <div
+      class="d-flex justify-content-center align-items-center mx-auto gap-3"
+      style="max-width: 700px"
+    >
+      <div>
+        <img
+          src="image/pic me.jpg"
+          class="rounded-circle"
+          width="200"
+          height="200"
+          style="object-fit: cover"
+          alt=""
+        />
+      </div>
+      <div class="d-none d-sm-block">
+        <div class="display-5 mb-3">Nontanun Hinmalai</div>
+        <div class="text-muted">
+          สวัสดีครับ ผมชื่อ นนทนันท์ หินมาลัย ชื่อเล่น ช็อปเปอร์ <br>
+          เป็นนักศึกษาปี 2 กำลังศึกษาในสาขาวิศวกรรมคอมพิวเตอร์ <br>
+          คณะวิศวกรรมศาสตร์ มหาวิทยาลัยเชียงใหม่
+        </div>
+      </div>
+    </div>
+    <br>
+    <hr />
+    
+    <!--Skill page-->
+    <p class="text-center fs-3">Skills</p>
+
+    <div style="max-width: 700px" class="mx-auto px-3 ">
+      <div class="d-flex border mb-3 shadow-sm rounded-4">
+        <div class="">
+          <img
+            src="image/programming.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-start-4 d-none d-sm-block"
+            alt=""
+          />
+        </div>
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Programming</p>
+          <span class="text-muted"
+            >สามารถเขียนภาษา Python C++ Scratch และกำลังศึกษาภาษา Html Css Java Javascript</span
+          >
+        </div>
+      </div>
+
+      <div class="d-flex border mb-3 shadow-sm rounded-4 justify-content-between">
+        <div class="p-4">
+          <p class="fw-semibold fs-5">Teamwork</p>
+          <span class="text-muted"
+            >สามารถทำงานร่วมกับผู้อื่นเป็นทีมได้ สามารถแสดงความเป็นผู้นำได้ในยามจำเป็น</span
+          >
+        </div>
+        <div class="">
+          <img
+            src="image/teamwork.jpg"
+            width="150px"
+            height="150px"
+            style="object-fit: cover"
+            class="rounded-end-4 d-none d-sm-block"
+            alt=""
+          />
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
 </html>
